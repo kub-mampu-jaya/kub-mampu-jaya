@@ -27,7 +27,7 @@ export function Features() {
 
     return (
         <section
-            className="relative bg-gradient-to-r from-orange-500 to-red-500 bg-cover bg-center bg-no-repeat py-20 text-white"
+            className="relative bg-gradient-to-r from-orange-400 to-orange-400 bg-cover bg-center bg-no-repeat py-20 text-white"
             id="why-us"
         >
             {/* Overlay for better text readability */}
