@@ -59,6 +59,21 @@
     --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
     --color-sidebar-border: var(--sidebar-border);
     --color-sidebar-ring: var(--sidebar-ring);
+
+    /* Warna costum */
+    --color-cream50: #faf8f3;
+    --color-cream100: #f5f1e8;
+    --color-cream200: #ede6d6;
+    --color-cream300: #e3d7bd;
+    --color-cream400: #d6c2a4;
+    --color-cream500: #c4a98a;
+    --color-cream600: #a88b6a;
+    --color-cream700: #7a6248;
+    --color-textcream500: #b7a893;
+    --color-textcream600: #9b876b;
+    --color-textcream700: #7a6248;
+    --color-textcream800: #se4b3b;
+    --color-textcream900: #4b3f33;
 }
 
 :root {
