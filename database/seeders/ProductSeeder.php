@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Product;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 
 class ProductSeeder extends Seeder
 {
@@ -14,13 +14,6 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
-        // Path to your products.sql file
-        $sqlFilePath = 'products.sql';
-
-        // Read the SQL file
-        $sql = file_get_contents($sqlFilePath);
-        
-        // Execute the SQL queries
-        DB::unprepared($sql);
+        Product::factory(50)->create();
     }
 }
