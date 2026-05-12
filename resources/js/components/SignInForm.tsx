@@ -44,7 +44,7 @@ export function SignInForm() {
                 <div className="mb-4 rounded-md bg-red-50 p-4">
                     <div className="flex">
                         <div className="flex-shrink-0">
-                            <svg className="h-5 w-5 text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <svg className="h-5 w-5 text-cream-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
                             </svg>
                         </div>
@@ -54,7 +54,7 @@ export function SignInForm() {
                     </div>
                 </div>
             )}
-            <h1 className="mb-8 text-orange-500">Masuk ke FNB E-Commerce</h1>
+            <h1 className="mb-8 text-cream-900">Masuk ke FNB E-Commerce</h1>
 
             {/* <div className="flex justify-center gap-4 mb-6">
         <button className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50 transition-colors">
@@ -85,7 +85,7 @@ export function SignInForm() {
                         placeholder="Nama Pengguna"
                         value={username}
                         onChange={handleInputChange(setUsername)}
-                        className="w-full rounded-lg border-none bg-gray-100 py-3 pr-4 pl-12 focus:ring-2 focus:ring-orange-500 focus:outline-none"
+                        className="w-full rounded-lg border-none bg-gray-100 py-3 pr-4 pl-12 focus:ring-2 focus:ring-cream-700 focus:outline-none"
                         required
                     />
                 </div>
@@ -97,7 +97,7 @@ export function SignInForm() {
                         placeholder="Kata Sandi"
                         value={password}
                         onChange={handleInputChange(setPassword)}
-                        className="w-full rounded-lg border-none bg-gray-100 py-3 pr-4 pl-12 focus:ring-2 focus:ring-orange-500 focus:outline-none"
+                        className="w-full rounded-lg border-none bg-gray-100 py-3 pr-4 pl-12 focus:ring-2 focus:ring-cream-700 focus:outline-none"
                         required
                     />
                 </div>
@@ -112,7 +112,7 @@ export function SignInForm() {
                 <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="mt-6 w-full rounded-full bg-orange-500 py-3 text-white transition-colors hover:bg-orange-600 disabled:bg-orange-300"
+                    className="mt-6 w-full rounded-full bg-cream-700 py-3 text-white transition-colors hover:bg-cream-800 disabled:bg-orange-300"
                 >
                     {isSubmitting ? 'MEMPROSES...' : 'MASUK'}
                 </button>

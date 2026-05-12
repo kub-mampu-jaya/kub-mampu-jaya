@@ -1,18 +1,32 @@
 interface LogoProps {
-  light?: boolean;
+  variant?: "light" | "dark";
 }
 
-export function Logo({ light = false }: LogoProps) {
-  const color = light ? "text-white" : "text-black";
+export function Logo({ variant = "dark" }: LogoProps) {
+
+  const logoSrc =
+    variant === "light"
+      ? "/images/Logo KUP putih.png"
+      : "/images/Logo KUP hitam.png";
+
+  const textColor =
+    variant === "light"
+      ? "text-white"
+      : "text-black";
 
   return (
     <div className="flex items-center gap-2">
-      <div className={`w-10 h-10 rounded flex items-center justify-center`}>
-        <div>
-            <img src="/images/logo-pbp.png" />
-        </div>
+      <div className="flex h-20 w-20 items-center justify-center rounded">
+        <img
+          src={logoSrc}
+          alt="Logo"
+          className="h-full w-full object-contain"
+        />
       </div>
-      <span className={color}>FNB E-Commerce</span>
+
+      <span className={textColor}>
+        FNB E-Commerce
+      </span>
     </div>
   );
 }

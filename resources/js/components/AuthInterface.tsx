@@ -19,11 +19,11 @@ export function AuthInterface() {
                 {/* ================= SIGN IN MOBILE ================= */}
                 <div className="flex min-h-screen flex-col bg-white md:hidden">
                     {/* HERO */}
-                    <div className="relative flex min-h-[40vh] flex-col items-center justify-center overflow-hidden rounded-b-[3rem] bg-gradient-to-br from-orange-400 to-orange-500 text-white">
+                    <div className="relative flex min-h-[40vh] flex-col items-center justify-center overflow-hidden rounded-b-[3rem] bg-gradient-to-br from-cream-700 to-cream-800 text-white">
                         <div className="absolute top-6 right-6 h-20 w-20 rounded-full bg-white/10" />
                         <div className="absolute bottom-8 left-8 h-28 w-28 rounded-full bg-white/10" />
 
-                        <Logo light />
+                        <Logo variant='light' />
 
                         <div className="z-10 mt-4 px-6 text-center">
                             <h2 className="mb-2 text-2xl font-bold">
@@ -43,7 +43,7 @@ export function AuthInterface() {
                         <div className="mt-auto py-6 text-center">
                             <button
                                 onClick={() => setIsSignUp(true)}
-                                className="font-semibold text-orange-500"
+                                className="font-semibold text-cream-800"
                             >
                                 DAFTAR
                             </button>
@@ -56,13 +56,13 @@ export function AuthInterface() {
                     {/* LEFT */}
                     <div className="relative flex flex-col justify-center px-16">
                         <div className="absolute top-8 left-8">
-                            <Logo />
+                            <Logo variant='dark'/>
                         </div>
                         <SignInForm />
                     </div>
 
                     {/* RIGHT */}
-                    <div className="relative flex items-center justify-center overflow-hidden bg-gradient-to-br from-orange-400 to-orange-500 text-white">
+                    <div className="relative flex items-center justify-center overflow-hidden bg-gradient-to-br from-cream-700 to-cream-800 text-white">
                         {/* ORNAMENT */}
                         <div className="absolute -top-20 -right-20 h-72 w-72 rounded-full bg-white/10" />
                         <div className="absolute bottom-[-100px] left-[-100px] h-80 w-80 rounded-full bg-white/10" />
@@ -99,11 +99,11 @@ export function AuthInterface() {
                 {/* ================= SIGN UP MOBILE ================= */}
                 <div className="flex min-h-screen flex-col bg-white md:hidden">
                     {/* HERO */}
-                    <div className="relative flex min-h-[40vh] flex-col items-center justify-center overflow-hidden rounded-b-[3rem] bg-gradient-to-br from-orange-400 to-orange-500 text-white">
+                    <div className="relative flex min-h-[40vh] flex-col items-center justify-center overflow-hidden rounded-b-[3rem] bg-gradient-to-br from-cream-700 to-cream-800 text-white">
                         <div className="absolute top-6 right-6 h-20 w-20 rounded-full bg-white/10" />
                         <div className="absolute bottom-8 left-8 h-28 w-28 rounded-full bg-white/10" />
 
-                        <Logo light />
+                        <Logo variant='light' />
 
                         <div className="z-10 mt-4 px-6 text-center">
                             <h2 className="mb-2 text-2xl font-bold">
@@ -123,7 +123,7 @@ export function AuthInterface() {
                         <div className="mt-auto py-6 text-center">
                             <button
                                 onClick={() => setIsSignUp(false)}
-                                className="font-semibold text-orange-500"
+                                className="font-semibold text-cream-800"
                             >
                                 MASUK
                             </button>
@@ -134,13 +134,13 @@ export function AuthInterface() {
                 {/* ================= DESKTOP ================= */}
                 <div className="hidden min-h-screen grid-cols-2 md:grid">
                     {/* LEFT */}
-                    <div className="relative flex items-center justify-center overflow-hidden bg-gradient-to-br from-orange-400 to-orange-500 text-white">
+                    <div className="relative flex items-center justify-center overflow-hidden bg-gradient-to-br from-cream-700 to-cream-800 text-white">
                         {/* ORNAMENT */}
                         <div className="absolute -top-20 -left-20 h-72 w-72 rounded-full bg-white/10" />
                         <div className="absolute right-[-100px] bottom-[-100px] h-80 w-80 rounded-full bg-white/10" />
 
                         <div className="absolute top-8 left-8">
-                            <Logo light />
+                            <Logo variant='light' />
                         </div>
 
                         <div className="relative z-10 px-10 text-center">
