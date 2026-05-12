@@ -55,7 +55,7 @@ export function SignUpForm() {
                     </div>
                 </div>
             )}
-            <h1 className="mb-8 text-orange-500">Buat Akun Anda</h1>
+            <h1 className="mb-8 text-cream-800">Buat Akun Anda</h1>
 
             {/* <div className="flex justify-center gap-4 mb-6">
         <button className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50 transition-colors">
@@ -118,7 +118,7 @@ export function SignUpForm() {
                 <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="mt-6 w-full rounded-full bg-orange-500 py-3 text-white transition-colors hover:bg-orange-600 disabled:bg-orange-300"
+                    className="mt-6 w-full rounded-full bg-cream-700 py-3 text-white transition-colors hover:bg-cream-800 disabled:bg-orange-300"
                 >
                     {isSubmitting ? 'MEMPROSES...' : 'DAFTAR'}
                 </button>

@@ -25,7 +25,7 @@ export function Footer() {
                     <h3 className="mb-4 text-2xl font-bold">
                         {t('stayConnected')}
                     </h3>
-                    <p className="mx-auto mb-6 max-w-2xl text-gray-400">
+                    <p className="mx-auto mb-6 max-w-2xl text-gray-300">
                         {t('newsletterDesc')}
                     </p>
                     <div className="mx-auto flex max-w-md flex-col gap-4 sm:flex-row">
@@ -40,7 +40,7 @@ export function Footer() {
                     </div>
                 </div>
 
-                <Separator className="mb-12 bg-gray-800" />
+                <Separator className="mb-12 bg-cream-700" />
 
                 {/* Main Footer Content */}
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
@@ -48,9 +48,9 @@ export function Footer() {
                     <div>
                         <div className="mb-6">
                             <img
-                                src="/images/logo-pbp.png"
+                                src="/images/Logo KUP.png"
                                 alt="TAGIDA Naturals Logo"
-                                className="h-12 w-auto object-contain"
+                                className="h-30 w-auto object-contain"
                             />
                         </div>
                         <p className="mb-6 text-gray-300">
@@ -244,7 +244,7 @@ export function Footer() {
                     </div>
                 </div>
 
-                <Separator className="my-8 bg-gray-800" />
+                <Separator className="my-8 bg-cream-700" />
 
                 {/* Bottom Bar */}
                 <div className="flex flex-col items-center justify-between text-sm text-gray-300 md:flex-row">
