@@ -51,7 +51,7 @@ export function Steps() {
         <section className="mx-auto max-w-6xl py-20">
             {/* Section Header */}
             <div className="mb-16 text-center">
-                <h2 className="mb-2 text-3xl font-bold text-orange-600 md:text-4xl">
+                <h2 className="mb-2 text-3xl font-bold text-cream-600 md:text-4xl">
                     Proses Sederhana
                 </h2>
                 <p className="mx-auto max-w-2xl text-lg text-gray-600">
@@ -69,13 +69,13 @@ export function Steps() {
                             className="group relative rounded-xl border border-gray-100 bg-white p-8 shadow-md transition-all duration-300 hover:shadow-lg"
                         >
                             {/* Step Number */}
-                            <div className="absolute -top-3 -right-3 flex h-10 w-10 items-center justify-center rounded-lg bg-orange-600 text-white shadow-sm">
+                            <div className="absolute -top-3 -right-3 flex h-10 w-10 items-center justify-center rounded-lg bg-cream-600 text-white shadow-sm">
                                 <span>{index + 1}</span>
                             </div>
 
                             {/* Icon */}
                             <div className="mb-6">
-                                <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-orange-600">
+                                <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-cream-600">
                                     <Icon
                                         className="h-7 w-7 text-white"
                                         strokeWidth={2}

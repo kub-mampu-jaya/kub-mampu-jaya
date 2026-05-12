@@ -77,7 +77,7 @@ function Products({ products }: HomePageProps) {
                 <Link href="/products">
                     <Button
                         // href="/products"
-                        className="bg-primary text-white hover:bg-orange-600"
+                        className="bg-cream-600 text-white hover:bg-cream-800"
                     >
                         Lihat Semua
                     </Button>

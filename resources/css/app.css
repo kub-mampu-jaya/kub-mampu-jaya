@@ -60,20 +60,24 @@
     --color-sidebar-border: var(--sidebar-border);
     --color-sidebar-ring: var(--sidebar-ring);
 
-    /* Warna costum */
-    --color-cream50: #faf8f3;
-    --color-cream100: #f5f1e8;
-    --color-cream200: #ede6d6;
-    --color-cream300: #e3d7bd;
-    --color-cream400: #d6c2a4;
-    --color-cream500: #c4a98a;
-    --color-cream600: #a88b6a;
-    --color-cream700: #7a6248;
-    --color-textcream500: #b7a893;
-    --color-textcream600: #9b876b;
-    --color-textcream700: #7a6248;
-    --color-textcream800: #se4b3b;
-    --color-textcream900: #4b3f33;
+    /* Cream Colors */
+    --color-cream-50: #faf8f3;
+    --color-cream-100: #f5f1e8;
+    --color-cream-200: #ede6d6;
+    --color-cream-300: #e3d7bd;
+    --color-cream-400: #d6c2a4;
+    --color-cream-500: #c4a98a;
+    --color-cream-600: #a88b6a;
+    --color-cream-700: #7a6248;
+    --color-cream-800: #5e4b3b;
+    --color-cream-900: #4b3f33;
+
+    /* Cream Text Colors */
+    --color-text-cream-500: #b7a893;
+    --color-text-cream-600: #9b876b;
+    --color-text-cream-700: #7a6248;
+    --color-text-cream-800: #5e4b3b;
+    --color-text-cream-900: #4b3f33;
 }
 
 :root {
