@@ -18,7 +18,7 @@ export function Footer() {
     const { t } = useLanguage();
 
     return (
-        <footer className="bg-gray-900 text-white">
+        <footer className="bg-cream-800 text-white">
             <div className="container mx-auto px-4 py-16">
                 {/* Newsletter Section */}
                 <div className="mb-12 text-center">
@@ -34,7 +34,7 @@ export function Footer() {
                             placeholder="Enter your email"
                             className="border-gray-700 bg-gray-800 text-white placeholder-gray-400"
                         />
-                        <Button className="bg-orange-600 hover:bg-orange-700">
+                        <Button className="bg-cream-600 hover:bg-cream-700">
                             {t('subscribe')}
                         </Button>
                     </div>
@@ -53,35 +53,35 @@ export function Footer() {
                                 className="h-12 w-auto object-contain"
                             />
                         </div>
-                        <p className="mb-6 text-gray-400">
+                        <p className="mb-6 text-gray-300">
                             Memimpin masa depan kuliner praktis dengan makanan cepat saji berkualitas yang mengutamakan rasa, kecepatan, dan kenyamanan.
                         </p>
                         <div className="flex space-x-4">
                             <Button
                                 variant="ghost"
                                 size="sm"
-                                className="p-2 text-gray-400 hover:text-white"
+                                className="p-2 text-gray-300 hover:text-white"
                             >
                                 <Facebook className="h-5 w-5" />
                             </Button>
                             <Button
                                 variant="ghost"
                                 size="sm"
-                                className="p-2 text-gray-400 hover:text-white"
+                                className="p-2 text-gray-300 hover:text-white"
                             >
                                 <Twitter className="h-5 w-5" />
                             </Button>
                             <Button
                                 variant="ghost"
                                 size="sm"
-                                className="p-2 text-gray-400 hover:text-white"
+                                className="p-2 text-gray-300 hover:text-white"
                             >
                                 <Instagram className="h-5 w-5" />
                             </Button>
                             <Button
                                 variant="ghost"
                                 size="sm"
-                                className="p-2 text-gray-400 hover:text-white"
+                                className="p-2 text-gray-300 hover:text-white"
                             >
                                 <Youtube className="h-5 w-5" />
                             </Button>
@@ -97,7 +97,7 @@ export function Footer() {
                             <li>
                                 <a
                                     href="#products"
-                                    className="text-gray-400 transition-colors hover:text-white"
+                                    className="text-gray-300 transition-colors hover:text-white"
                                 >
                                     Semua Produk
                                 </a>
@@ -105,7 +105,7 @@ export function Footer() {
                             <li>
                                 <a
                                     href="#about"
-                                    className="text-gray-400 transition-colors hover:text-white"
+                                    className="text-gray-300 transition-colors hover:text-white"
                                 >
                                     {t('about')}
                                 </a>
@@ -113,7 +113,7 @@ export function Footer() {
                             <li>
                                 <a
                                     href="#sustainability"
-                                    className="text-gray-400 transition-colors hover:text-white"
+                                    className="text-gray-300 transition-colors hover:text-white"
                                 >
                                     {t('sustainability')}
                                 </a>
@@ -121,7 +121,7 @@ export function Footer() {
                             <li>
                                 <a
                                     href="#recipes"
-                                    className="text-gray-400 transition-colors hover:text-white"
+                                    className="text-gray-300 transition-colors hover:text-white"
                                 >
                                     Resep
                                 </a>
@@ -129,7 +129,7 @@ export function Footer() {
                             <li>
                                 <a
                                     href="#nutrition"
-                                    className="text-gray-400 transition-colors hover:text-white"
+                                    className="text-gray-300 transition-colors hover:text-white"
                                 >
                                     Panduan Nutrisi
                                 </a>
@@ -137,7 +137,7 @@ export function Footer() {
                             <li>
                                 <a
                                     href="#bulk"
-                                    className="text-gray-400 transition-colors hover:text-white"
+                                    className="text-gray-300 transition-colors hover:text-white"
                                 >
                                     Pembelian Grosir
                                 </a>
@@ -154,7 +154,7 @@ export function Footer() {
                             <li>
                                 <a
                                     href="#help"
-                                    className="text-gray-400 transition-colors hover:text-white"
+                                    className="text-gray-300 transition-colors hover:text-white"
                                 >
                                     Pusat Bantuan
                                 </a>
@@ -162,7 +162,7 @@ export function Footer() {
                             <li>
                                 <a
                                     href="#shipping"
-                                    className="text-gray-400 transition-colors hover:text-white"
+                                    className="text-gray-300 transition-colors hover:text-white"
                                 >
                                     Info Pengiriman
                                 </a>
@@ -170,7 +170,7 @@ export function Footer() {
                             <li>
                                 <a
                                     href="#returns"
-                                    className="text-gray-400 transition-colors hover:text-white"
+                                    className="text-gray-300 transition-colors hover:text-white"
                                 >
                                     Pengembalian & Penukaran
                                 </a>
@@ -178,7 +178,7 @@ export function Footer() {
                             <li>
                                 <a
                                     href="#warranty"
-                                    className="text-gray-400 transition-colors hover:text-white"
+                                    className="text-gray-300 transition-colors hover:text-white"
                                 >
                                     Garansi Produk
                                 </a>
@@ -186,7 +186,7 @@ export function Footer() {
                             <li>
                                 <a
                                     href="#contact"
-                                    className="text-gray-400 transition-colors hover:text-white"
+                                    className="text-gray-300 transition-colors hover:text-white"
                                 >
                                     {t('contact')}
                                 </a>
@@ -194,7 +194,7 @@ export function Footer() {
                             <li>
                                 <a
                                     href="#track"
-                                    className="text-gray-400 transition-colors hover:text-white"
+                                    className="text-gray-300 transition-colors hover:text-white"
                                 >
                                     Lacak Pesanan Anda
                                 </a>
@@ -209,21 +209,21 @@ export function Footer() {
                         </h4>
                         <div className="space-y-4">
                             <div className="flex items-start space-x-3">
-                                <MapPin className="mt-0.5 h-5 w-5 text-orange-600" />
-                                <div className="text-gray-400">
+                                <MapPin className="mt-0.5 h-5 w-5 text-cream-600" />
+                                <div className="text-gray-300">
                                     <p>Krian, Sidoarjo, Jawa Timur</p>
                                     <p></p>
                                 </div>
                             </div>
                             <div className="flex items-center space-x-3">
-                                <Phone className="h-5 w-5 text-orange-600" />
-                                <span className="text-gray-400">
+                                <Phone className="h-5 w-5 text-cream-600" />
+                                <span className="text-gray-300">
                                     081-***-***
                                 </span>
                             </div>
                             <div className="flex items-center space-x-3">
-                                <Mail className="h-5 w-5 text-orange-600" />
-                                <span className="text-gray-400">
+                                <Mail className="h-5 w-5 text-cream-600" />
+                                <span className="text-gray-300">
                                     PerusahaanFNB@gmail.com
                                 </span>
                             </div>
@@ -247,7 +247,7 @@ export function Footer() {
                 <Separator className="my-8 bg-gray-800" />
 
                 {/* Bottom Bar */}
-                <div className="flex flex-col items-center justify-between text-sm text-gray-400 md:flex-row">
+                <div className="flex flex-col items-center justify-between text-sm text-gray-300 md:flex-row">
                     <p>© 2025 FNB e-Commerce. All rights reserved.</p>
                     <div className="mt-4 flex space-x-6 md:mt-0">
                         <a

@@ -13,7 +13,7 @@ export function Hero() {
             className="relative flex min-h-[100svh] items-center"
         >
             {/* Background */}
-            <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-red-500 bg-cover bg-center py-12 text-white sm:py-16" />
+            <div className="absolute inset-0 bg-gradient-to-r from-cream-600 to-cream-500 bg-cover bg-center py-12 text-white sm:py-16" />
             <div className="absolute inset-0 bg-black/10" />
 
             <div className="relative z-10 container mx-auto px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
@@ -110,7 +110,7 @@ export function Hero() {
                                     key={i}
                                     className="flex items-center space-x-2"
                                 >
-                                    <span className="h-2 w-2 rounded-full bg-blue-400"></span>
+                                    <span className="h-2 w-2 rounded-full bg-cream-800"></span>
                                     <span>{item}</span>
                                 </div>
                             ))}
@@ -128,7 +128,7 @@ export function Hero() {
                         </div>
 
                         {/* Floating Elements */}
-                        <div className="absolute -top-3 -right-3 rounded-xl bg-orange-500 p-3 shadow-lg backdrop-blur-sm sm:-top-4 sm:-right-4 sm:p-4">
+                        <div className="absolute -top-3 -right-3 rounded-xl bg-cream-700 p-3 shadow-lg backdrop-blur-sm sm:-top-4 sm:-right-4 sm:p-4">
                             <div className="text-center">
                                 <div className="text-xl font-bold text-white sm:text-2xl">
                                     100%
@@ -139,7 +139,7 @@ export function Hero() {
                             </div>
                         </div>
 
-                        <div className="absolute -bottom-3 -left-3 rounded-xl bg-orange-500 p-3 shadow-lg backdrop-blur-sm sm:-bottom-4 sm:-left-4 sm:p-4">
+                        <div className="absolute -bottom-3 -left-3 rounded-xl bg-cream-700 p-3 shadow-lg backdrop-blur-sm sm:-bottom-4 sm:-left-4 sm:p-4">
                             <div className="text-center">
                                 <div className="text-xl font-bold text-white sm:text-2xl">
                                     98%

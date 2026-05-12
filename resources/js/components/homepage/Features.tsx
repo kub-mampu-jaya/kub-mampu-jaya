@@ -27,7 +27,7 @@ export function Features() {
 
     return (
         <section
-            className="relative bg-gradient-to-r from-orange-400 to-orange-400 bg-cover bg-center bg-no-repeat py-20 text-white"
+            className="relative bg-gradient-to-r from-cream-500 to-cream-600 bg-cover bg-center bg-no-repeat py-20 text-white"
             id="why-us"
         >
             {/* Overlay for better text readability */}
@@ -54,7 +54,7 @@ export function Features() {
                                 >
                                     <CardContent className="flex items-start space-x-4 p-6">
                                         <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-orange-100">
-                                            <feature.icon className="h-6 w-6 text-orange-600" />
+                                            <feature.icon className="h-6 w-6 textcream800" />
                                         </div>
                                         <div>
                                             <h3 className="mb-2 text-lg font-semibold text-gray-800">

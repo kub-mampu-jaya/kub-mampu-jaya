@@ -75,28 +75,28 @@ export function Header({
                 <div className="relative flex items-center">
                     <div className="flex items-center">
                         <img
-                            src="/images/logo-pbp.png"
-                            className="h-16 w-auto object-contain"
+                            src="/images/Logo KUP MAMPU JAYA.png"
+                            className="h-20 w-auto object-contain"
                         />
                     </div>
 
                     <nav className="absolute left-1/2 hidden -translate-x-1/2 items-center space-x-8 md:flex">
                         <a
                             href="/"
-                            className="text-xl font-medium transition-colors hover:text-orange-600"
+                            className="text-xl font-medium transition-colors hover:text-cream-800"
                         >
                             {'Beranda'}
                         </a>
                         <a
                             href="/products"
-                            className="text-xl font-medium transition-colors hover:text-orange-600"
+                            className="text-xl font-medium transition-colors hover:text-cream-800"
                         >
                             {'Produk Kami'}
                         </a>
 
                         <a
                             href="#contact"
-                            className="text-xl font-medium transition-colors hover:text-orange-600"
+                            className="text-xl font-medium transition-colors hover:text-cream-800"
                         >
                             {'Kontak'}
                         </a>
@@ -276,13 +276,13 @@ export function Header({
                         <div className="flex flex-col space-y-4">
                             <a
                                 href="/"
-                                className="transition-colors hover:text-orange-600"
+                                className="transition-colors hover:text-cream-800"
                             >
                                 {'beranda'}
                             </a>
                             <a
                                 href="/products"
-                                className="transition-colors hover:text-orange-600"
+                                className="transition-colors hover:text-cream-800"
                             >
                                 {'produk'}
                             </a>
@@ -300,7 +300,7 @@ export function Header({
                             </a> */}
                             <a
                                 href="#contact"
-                                className="transition-colors hover:text-orange-600"
+                                className="transition-colors hover:text-cream-800"
                             >
                                 {'kontak'}
                             </a>
