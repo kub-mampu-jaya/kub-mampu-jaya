@@ -123,7 +123,7 @@ export function Footer() {
                                     href="#recipes"
                                     className="text-gray-300 transition-colors hover:text-white"
                                 >
-                                    Resep
+                                    Koleksi Terbaru
                                 </a>
                             </li>
                             <li>
@@ -131,7 +131,7 @@ export function Footer() {
                                     href="#nutrition"
                                     className="text-gray-300 transition-colors hover:text-white"
                                 >
-                                    Panduan Nutrisi
+                                    Cara Pemesanan
                                 </a>
                             </li>
                             <li>
@@ -211,20 +211,20 @@ export function Footer() {
                             <div className="flex items-start space-x-3">
                                 <MapPin className="mt-0.5 h-5 w-5 text-cream-600" />
                                 <div className="text-gray-300">
-                                    <p>Krian, Sidoarjo, Jawa Timur</p>
+                                    <p>Jl. Kupang Gunung Timur 1No 20-22 Suarabaya, Jawa Timur</p>
                                     <p></p>
                                 </div>
                             </div>
                             <div className="flex items-center space-x-3">
                                 <Phone className="h-5 w-5 text-cream-600" />
                                 <span className="text-gray-300">
-                                    081-***-***
+                                    0813#######
                                 </span>
                             </div>
                             <div className="flex items-center space-x-3">
                                 <Mail className="h-5 w-5 text-cream-600" />
                                 <span className="text-gray-300">
-                                    PerusahaanFNB@gmail.com
+                                    kubmampujaya@gmail.com
                                 </span>
                             </div>
                         </div>
@@ -248,7 +248,7 @@ export function Footer() {
 
                 {/* Bottom Bar */}
                 <div className="flex flex-col items-center justify-between text-sm text-gray-300 md:flex-row">
-                    <p>© 2025 FNB e-Commerce. All rights reserved.</p>
+                    <p>© 2025 KUB Mampu Jaya. All rights reserved.</p>
                     <div className="mt-4 flex space-x-6 md:mt-0">
                         <a
                             href="#privacy"

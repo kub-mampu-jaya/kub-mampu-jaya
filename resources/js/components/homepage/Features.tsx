@@ -7,21 +7,21 @@ export function Features() {
     const features = [
         {
             icon: Clock,
-            title: 'Lebih Awet',
+            title: 'Solusi Fleksibel Sesuai Kebutuhan',
             description:
-                'Dikemas secara higienis untuk menjaga kualitas dan kesegarannya.',
+                'Kami menyediakan layanan yang fleksibel, mulai dari pemesanan sepatu custom untuk gaya personal, hingga pengadaan slipper berkualitas untuk menunjang bisnis hospitality Anda. Semuanya dirancang untuk menjadi koleksi alas kaki yang trendi dengan desain presisi.',
         },
         {
             icon: Truck,
-            title: 'Ringan & Mudah Dibawa',
+            title: 'Kualitas Premium',
             description:
-                'Cocok untuk bekal, piknik, atau sekadar camilan cepat di sela aktivitas.',
+                'Kami menggunakan material premium pilihan yang terbukti awet dan tangguh. Sebuah ketahanan yang bisa diandalkan untuk menemani berbagai kesibukan harian.',
         },
         {
             icon: Heart,
-            title: 'Mudah Disiapkan',
+            title: 'Pelayanan Sepenuh Hati',
             description:
-                'Cukup panaskan sebentar dan makanan siap dinikmati—tanpa perlu keahlian memasak.',
+                'Kepuasan Anda adalah prioritas utama kami. Tim kami selalu siap berdiskusi dan membantu dengan ramah, mulai dari konsultasi pesanan hingga produk tiba dengan aman di tangan Anda.',
         },
     ];
 
@@ -37,13 +37,13 @@ export function Features() {
                     {/* Content */}
                     <div>
                         <h2 className="mb-6 text-3xl font-bold text-white md:text-4xl">
-                            Kenapa Memilih Makanan Cepat Saji Kami?
+                            Kenapa Harus Pilih Kami Untuk Temani Langkah Anda? 
                         </h2>
                         <p className="mb-8 text-lg text-white">
-                            Hidangan cepat saji kami dibuat untuk anda yang
-                            ingin makan enak tanpa membuang waktu. Praktis untuk
-                            kerja, kuliah, perjalanan, atau saat tidak sempat
-                            memasak.
+                            Bagi kami, ini bukan sekadar tentang alas kaki, 
+                            melainkan tentang membangun rasa percaya diri. 
+                            Sebagai produsen lokal, kami berkomitmen penuh 
+                            menghadirkan kualitas terbaik di setiap karya.
                         </p>
 
                         <div className="grid gap-6">

@@ -214,7 +214,7 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
                             4.6
                         </div>
                         <div className="text-[14px] text-gray-600">
-                            Penilaian Rasa
+                            Penilaian kualitas produk
                         </div>
                     </div>
                     <div className="text-center">
@@ -224,7 +224,7 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
                         >
                             4.8
                         </div>
-                        <div className="text-[14px] text-gray-600">Praktis</div>
+                        <div className="text-[14px] text-gray-600">Nyaman dan stylish</div>
                     </div>
                     <div className="text-center">
                         <div
@@ -234,7 +234,7 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
                             4.4
                         </div>
                         <div className="text-[14px] text-gray-600">
-                            Nilai Seimbang
+                            Kepuasan koleksi alas kaki
                         </div>
                     </div>
                 </div>
@@ -416,7 +416,7 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
                                 value={reviewText}
                                 onChange={(e) => setReviewText(e.target.value)}
                                 maxLength={500}
-                                placeholder="Ceritakan pendapat Anda tentang rasa, kualitas, kepraktisan, dan pengalaman keseluruhan menggunakan produk ini..."
+                                placeholder="Ceritakan apa yang Anda rasakan tentang kesesuaian ukuran, kenyamanan, model, dan pengalaman keseluruhan menggunakan produk ini..."
                                 rows={6}
                                 className="w-full resize-none rounded-lg border-2 border-gray-200 px-4 py-3 transition-all focus:border-[#FF6900] focus:ring-2 focus:ring-[#FF6900] focus:outline-none"
                             />

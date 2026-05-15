@@ -13,37 +13,37 @@ export function Steps() {
             icon: UserPlus,
             title: 'Buat Akun',
             description:
-                'Daftar dengan cepat dan dapatkan akses ke berbagai menu makanan cepat saji pilihan.',
+                'Daftar dan hubungkan Anda dengan informasi produk terbaru hingga tracking pesanan Anda.',
         },
         {
             icon: ShoppingCart,
-            title: 'Pilih Menu Favoritmu',
+            title: 'Pilih Produk',
             description:
-                'Jelajahi berbagai menu yang tersedia dan pilih hidangan yang paling cocok dengan selera anda.',
+                'mulai dari koleksi sepatu premium, slipper hotel, hingga laundry bag. Pilih produk yang paling sesuai dengan kebutuhan atau gaya Anda.',
         },
         {
             icon: Package,
-            title: 'Sesuaikan Paket',
+            title: 'Tentukan Detail & Customisasi',
             description:
-                'Atur porsi, jumlah pesanan, dan jadwal pengiriman sesuai kebutuhan.',
+                'Beri tahu kami spesifikasi yang Anda inginkan. Anda bisa berkonsultasi mengenai ukuran, penyesuaian desain, hingga detail sablon khusus sesuai yang diinginkan.',
         },
         {
             icon: Clock,
-            title: 'Lacak Pesanan',
+            title: 'Konfirmasi & Pembayaran',
             description:
-                'Pantau proses pengiriman secara real-time dan tahu kapan pesanan akan sampai.',
+                'Setelah detail pesanan dan estimasi waktu selesai disepakati, tim kami akan memberikan rincian total biaya. Lakukan pembayaran melalui metode yang tersedia secara aman, dan pesanan Anda akan langsung masuk ke antrean kami.',
         },
         {
             icon: Utensils,
-            title: 'Panaskan & Nikmati',
+            title: 'Produksi & Pengiriman',
             description:
-                'Hangatkan sebentar, dan hidangan lezat siap Anda santap di mana pun.',
+                'Produk akan dikerjakan oleh pengrajin kami. Anda dapat melacak status pesanan secara realtime dari sistem kami hingga pesanan mendarat dengan aman di alamat Anda.',
         },
         {
             icon: Star,
-            title: 'Beri Penilaian',
+            title: 'Berikan penilaian',
             description:
-                'Bantu kami berkembang dengan memberikan ulasan setelah menyantap menu kami.',
+                'Saatnya mencoba! Setelah diterima dan dicoba bagikan pengalaman Anda dengan memberikan rating dan ulasan.',
         },
     ];
 
@@ -55,7 +55,7 @@ export function Steps() {
                     Proses Sederhana
                 </h2>
                 <p className="mx-auto max-w-2xl text-lg text-gray-600">
-                    Dari dapur kami ke meja Anda dalam beberapa langkah mudah
+                    Dari tangan pengrajin hingga ke tangan Anda
                 </p>
             </div>
 

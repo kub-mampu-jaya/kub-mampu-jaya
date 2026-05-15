@@ -17,8 +17,8 @@ export function SuggestedProducts({ products }: SuggestedProductsProps) {
                     Produk Lain yang Mungkin Anda Suka
                 </h2>
                 <p className="text-gray-600">
-                    Temukan lebih banyak varian khichdi lezat dari Kamlesh
-                    Khichdi Wala
+                    Temukan lebih banyak koleksi kurasi lokal buatan pengrajin 
+                    KUB Mampu Jaya
                 </p>
             </div>
 

@@ -72,7 +72,7 @@ export default function ProductListingPage({ products }: ProductListingProps) {
                         Produk Kami
                     </h2>
                     <p className="mb-6 text-base text-gray-600 sm:text-xl">
-                        Temukan makanan cepat saji favorit anda!
+                        Temukan koleksi alas kaki favorit anda!
                     </p>
 
                     <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center">
