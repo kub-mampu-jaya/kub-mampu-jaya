@@ -28,10 +28,10 @@ export default function OrderStatusPage({
                 <div className="w-full max-w-md animate-in space-y-8 text-center duration-500 fade-in zoom-in">
                     {/* Illustration Icon */}
                     <div className="relative mx-auto h-28 w-28">
-                        <div className="absolute inset-0 animate-pulse rounded-full bg-orange-100" />
-                        <div className="relative flex h-full w-full items-center justify-center rounded-full border border-orange-50 bg-white shadow-xl">
-                            <ShoppingBag className="h-12 w-12 text-[#FF6900]" />
-                            <div className="absolute -top-1 -right-1 flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[#FF6900] shadow-lg">
+                        <div className="absolute inset-0 animate-pulse rounded-full bg-cream-200" />
+                        <div className="relative flex h-full w-full items-center justify-center rounded-full border border-cream-100 bg-white shadow-xl">
+                            <ShoppingBag className="h-12 w-12 text-[#7A6248]" />
+                            <div className="absolute -top-1 -right-1 flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[#7A6248] shadow-lg">
                                 <span className="text-sm font-bold text-white">
                                     !
                                 </span>
@@ -55,14 +55,14 @@ export default function OrderStatusPage({
                     <div className="flex flex-col gap-3 pt-4">
                         <Button
                             onClick={() => navigate('/products')}
-                            className="h-14 w-full rounded-2xl bg-[#FF6900] text-base font-bold text-white shadow-lg shadow-orange-200 transition-all hover:scale-[1.02] hover:bg-[#E55F00] active:scale-95"
+                            className="h-14 w-full rounded-2xl bg-[#A88B6A] text-base font-bold text-white shadow-lg shadow-orange-200 transition-all hover:scale-[1.02] hover:bg-[#7A6248] active:scale-95"
                         >
                             Mulai Pesan Sekarang
                         </Button>
 
                         <button
                             onClick={() => navigate('/')}
-                            className="inline-flex items-center justify-center gap-2 py-2 text-sm font-semibold text-gray-400 transition-colors hover:text-[#FF6900]"
+                            className="inline-flex items-center justify-center gap-2 py-2 text-sm font-semibold text-gray-400 transition-colors hover:text-[#7A6248]"
                         >
                             <ArrowLeft className="h-4 w-4" />
                             Kembali ke Beranda
