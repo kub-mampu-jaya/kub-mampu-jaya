@@ -54,7 +54,7 @@ export function Footer() {
                             />
                         </div>
                         <p className="mb-6 text-gray-300">
-                            Memimpin masa depan kuliner praktis dengan makanan cepat saji berkualitas yang mengutamakan rasa, kecepatan, dan kenyamanan.
+                            Menghadirkan produk lokal berkualitas dengan mengutamakan kenyamanan, kepercayaan, dan kepuasan pelanggan di setiap pembelian.
                         </p>
                         <div className="flex space-x-4">
                             <Button
