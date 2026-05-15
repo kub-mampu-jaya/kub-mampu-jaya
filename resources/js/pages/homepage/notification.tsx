@@ -129,7 +129,7 @@ const NotificationPage = () => {
                                 value={query}
                                 onChange={(e) => setQuery(e.target.value)}
                                 placeholder="Cari judul / pesan / pengguna..."
-                                className="w-full rounded-xl border px-3 py-2 pr-10 text-sm focus:border-[#FF6900] focus:ring-4 focus:ring-[#FF6900]/10 focus:outline-none"
+                                className="w-full rounded-xl border px-3 py-2 pr-10 text-sm focus:border-[#A88B6A] focus:ring-4 focus:ring-[#7A6248]/10 focus:outline-none"
                             />
                             {query && (
                                 <button

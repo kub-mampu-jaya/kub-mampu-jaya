@@ -78,6 +78,15 @@
     --color-text-cream-700: #7a6248;
     --color-text-cream-800: #5e4b3b;
     --color-text-cream-900: #4b3f33;
+
+    /* Cream Border Colors */
+    --color-border-cream-100: #f5f1e8;
+    --color-border-cream-200: #ede6d6;
+    --color-border-cream-300: #e3d7bd;
+    --color-border-cream-400: #d6c2a4;
+    --color-border-cream-500: #c4a98a;
+    --color-border-cream-600: #a88b6a;
+    --color-border-cream-700: #7a6248;
 }
 
 :root {

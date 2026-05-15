@@ -158,7 +158,7 @@ export function Header({
                                     >
                                         <Bell className="h-6 w-6 text-gray-700 sm:h-5 sm:w-5" />
                                         {unreadCount > 0 && (
-                                            <span className="absolute -top-0.5 -right-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-[#FF6900] text-[10px] font-semibold text-white sm:top-0 sm:right-0 sm:h-4 sm:w-4 sm:text-[11px]">
+                                            <span className="absolute -top-0.5 -right-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-[#7A6248] text-[10px] font-semibold text-white sm:top-0 sm:right-0 sm:h-4 sm:w-4 sm:text-[11px]">
                                                 {unreadCount}
                                             </span>
                                         )}
@@ -180,7 +180,7 @@ export function Header({
                                                     </a>
                                                     {unreadCount > 0 && (
                                                         <span
-                                                            className="text-[12px] text-[#FF6900]"
+                                                            className="text-[12px] text-[#7A6248]"
                                                             style={{
                                                                 fontWeight: 600,
                                                             }}
@@ -214,7 +214,7 @@ export function Header({
                                                                 <div
                                                                     className={`mt-2 h-2 w-2 flex-shrink-0 rounded-full ${
                                                                         notification.unread
-                                                                            ? 'bg-[#FF6900]'
+                                                                            ? 'bg-[#7A6248]'
                                                                             : 'bg-transparent'
                                                                     }`}
                                                                 />

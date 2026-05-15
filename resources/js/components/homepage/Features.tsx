@@ -37,12 +37,12 @@ export function Features() {
                     {/* Content */}
                     <div>
                         <h2 className="mb-6 text-3xl font-bold text-white md:text-4xl">
-                            Kenapa Harus Pilih Kami Untuk Temani Langkah Anda? 
+                            Kenapa Harus Pilih Kami Untuk Temani Langkah Anda?
                         </h2>
                         <p className="mb-8 text-lg text-white">
-                            Bagi kami, ini bukan sekadar tentang alas kaki, 
-                            melainkan tentang membangun rasa percaya diri. 
-                            Sebagai produsen lokal, kami berkomitmen penuh 
+                            Bagi kami, ini bukan sekadar tentang alas kaki,
+                            melainkan tentang membangun rasa percaya diri.
+                            Sebagai produsen lokal, kami berkomitmen penuh
                             menghadirkan kualitas terbaik di setiap karya.
                         </p>
 
@@ -75,15 +75,15 @@ export function Features() {
                         <div className="space-y-4">
                             <div className="aspect-square overflow-hidden rounded-xl shadow-lg">
                                 <img
-                                    src="images/coca.jpg"
-                                    alt="Freeze dried strawberries"
+                                    src="images/tas.png"
+                                    alt="tas"
                                     className="h-full w-full object-cover"
                                 />
                             </div>
                             <div className="aspect-[4/3] overflow-hidden rounded-xl shadow-lg">
                                 <img
-                                    src="images/Pizza.jpg"
-                                    alt="Camping meal preparation"
+                                    src="images/sandal hotel.png"
+                                    alt="sandal hotel"
                                     className="h-full w-full object-cover"
                                 />
                             </div>
@@ -91,15 +91,15 @@ export function Features() {
                         <div className="space-y-4 pt-8">
                             <div className="aspect-[4/3] overflow-hidden rounded-xl shadow-lg">
                                 <img
-                                    src="images/Kentang.jpg"
-                                    alt="Emergency food storage"
+                                    src="images/sepatu p.png"
+                                    alt="sepatu p"
                                     className="h-full w-full object-cover"
                                 />
                             </div>
                             <div className="aspect-square overflow-hidden rounded-xl shadow-lg">
                                 <ImageWithFallback
-                                    src="https://images.unsplash.com/photo-1607013251379-e6eecfffe234?w=300&h=300&fit=crop"
-                                    alt="Healthy meal prep"
+                                    src="images/sepatu.png"
+                                    alt="sepatu"
                                     className="h-full w-full object-cover"
                                 />
                             </div>

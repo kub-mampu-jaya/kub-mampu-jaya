@@ -103,7 +103,7 @@ export default function CartPage({ user, cart }: productCartProps) {
                     {/* HEADER */}
                     <div className="mb-6">
                         <Link href="/products">
-                            <button className="mb-2 text-sm text-[#FF6900] hover:underline">
+                            <button className="mb-2 text-sm text-[#7A6248] hover:underline">
                                 ← Kembali
                             </button>
                         </Link>
@@ -119,8 +119,8 @@ export default function CartPage({ user, cart }: productCartProps) {
 
                     {cartItems.length === 0 ? (
                         <Card className="rounded-xl border bg-white p-8 text-center sm:p-12">
-                            <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-orange-100 sm:h-24 sm:w-24">
-                                <ShoppingCart className="h-10 w-10 text-[#FF6900] sm:h-12 sm:w-12" />
+                            <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-cream-200 sm:h-24 sm:w-24">
+                                <ShoppingCart className="h-10 w-10 text-[#7A6248] sm:h-12 sm:w-12" />
                             </div>
                             <h2 className="mb-2 text-lg font-semibold sm:text-2xl">
                                 Keranjang masih kosong
@@ -129,7 +129,7 @@ export default function CartPage({ user, cart }: productCartProps) {
                                 Temukan produk menarik untukmu
                             </p>
                             <Link href="/products">
-                                <Button className="bg-[#FF6900] text-white hover:bg-[#E55D00]">
+                                <Button className="bg-[#A88B6A] text-white hover:bg-[#7A6248]">
                                     <ShoppingBag className="mr-2 h-4 w-4" />
                                     Lihat Produk
                                 </Button>

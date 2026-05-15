@@ -86,7 +86,7 @@ export default function UserProfilePage({ user }: UserProfilePageProps) {
                 <div className="mb-6">
                     <Link
                         href="/"
-                        className="mb-2 text-[#FF6900] hover:underline"
+                        className="mb-2 text-[#7A6248] hover:underline"
                     >
                         ← Back to Home
                     </Link>
@@ -108,10 +108,10 @@ export default function UserProfilePage({ user }: UserProfilePageProps) {
                             <div className="flex flex-col items-center text-center">
                                 {/* Profile Picture */}
                                 <div className="relative mb-4">
-                                    <div className="flex h-32 w-32 items-center justify-center overflow-hidden rounded-full border-4 border-[#FF6900] bg-gradient-to-br from-orange-100 to-yellow-100">
-                                        <UserIcon className="h-16 w-16 text-[#FF6900]" />
+                                    <div className="flex h-32 w-32 items-center justify-center overflow-hidden rounded-full border-4 border-[#7A6248] bg-gradient-to-br from-cream-200 to-cream-300">
+                                        <UserIcon className="h-16 w-16 text-[#7A6248]" />
                                     </div>
-                                    <button className="absolute right-0 bottom-0 flex h-10 w-10 items-center justify-center rounded-full bg-[#FF6900] text-white shadow-lg transition-colors hover:bg-[#E55D00]">
+                                    <button className="absolute right-0 bottom-0 flex h-10 w-10 items-center justify-center rounded-full bg-[#A88B6A] text-white shadow-lg transition-colors hover:bg-[#7A6248]">
                                         <Camera className="h-5 w-5" />
                                     </button>
                                 </div>
@@ -143,7 +143,7 @@ export default function UserProfilePage({ user }: UserProfilePageProps) {
                         </Card>
 
                         {/* Quick Actions */}
-                        <Card className="mt-4 rounded-xl border border-orange-200 bg-gradient-to-br from-orange-50 to-yellow-50 p-5 shadow-sm">
+                        <Card className="mt-4 rounded-xl border border-cream-300 bg-gradient-to-br from-cream-200 to-cream-200 p-5 shadow-sm">
                             <h3
                                 className="mb-3 text-gray-900"
                                 style={{ fontWeight: 600 }}
@@ -151,10 +151,10 @@ export default function UserProfilePage({ user }: UserProfilePageProps) {
                                 Quick Actions
                             </h3>
                             <div className="space-y-2">
-                                <button className="w-full rounded-lg border border-orange-200 bg-white px-4 py-2.5 text-left text-[14px] text-gray-700 transition-colors hover:bg-orange-50">
+                                <button className="w-full rounded-lg border border-cream-400 bg-white px-4 py-2.5 text-left text-[14px] text-gray-700 transition-colors hover:bg-orange-50">
                                     Saved Addresses
                                 </button>
-                                <button className="w-full rounded-lg border border-orange-200 bg-white px-4 py-2.5 text-left text-[14px] text-gray-700 transition-colors hover:bg-orange-50">
+                                <button className="w-full rounded-lg border border-cream-400 bg-white px-4 py-2.5 text-left text-[14px] text-gray-700 transition-colors hover:bg-orange-50">
                                     Payment Methods
                                 </button>
                             </div>
@@ -168,7 +168,7 @@ export default function UserProfilePage({ user }: UserProfilePageProps) {
                             <div className="mb-5 flex items-center justify-between">
                                 <div className="flex items-center gap-3">
                                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-orange-100">
-                                        <UserIcon className="h-5 w-5 text-[#FF6900]" />
+                                        <UserIcon className="h-5 w-5 text-[#7A6248]" />
                                     </div>
                                     <div>
                                         <h2
@@ -190,8 +190,8 @@ export default function UserProfilePage({ user }: UserProfilePageProps) {
                                     }
                                     className={
                                         isEditing
-                                            ? 'bg-[#FF6900] text-white hover:bg-[#E55D00]'
-                                            : 'border-[#FF6900] text-[#FF6900] hover:bg-orange-50'
+                                            ? 'bg-[#7A6248] text-white hover:bg-[#7A6248]'
+                                            : 'border-[#7A6248] text-[#7A6248] hover:bg-orange-50'
                                     }
                                     variant={isEditing ? 'default' : 'outline'}
                                 >
@@ -325,7 +325,7 @@ export default function UserProfilePage({ user }: UserProfilePageProps) {
                                                     )
                                                 }
                                                 disabled={!isEditing}
-                                                className="accent-[#FF6900]"
+                                                className="accent-[#7A6248]"
                                             />
                                             <span className="text-gray-700">
                                                 Male
@@ -347,7 +347,7 @@ export default function UserProfilePage({ user }: UserProfilePageProps) {
                                                     )
                                                 }
                                                 disabled={!isEditing}
-                                                className="accent-[#FF6900]"
+                                                className="accent-[#7A6248]"
                                             />
                                             <span className="text-gray-700">
                                                 Female
@@ -369,7 +369,7 @@ export default function UserProfilePage({ user }: UserProfilePageProps) {
                                                     )
                                                 }
                                                 disabled={!isEditing}
-                                                className="accent-[#FF6900]"
+                                                className="accent-[#7A6248]"
                                             />
                                             <span className="text-gray-700">
                                                 Other
@@ -388,7 +388,7 @@ export default function UserProfilePage({ user }: UserProfilePageProps) {
                             <div className="mb-5 flex items-center justify-between">
                                 <div className="flex items-center gap-3">
                                     <div className="flex h-10 w-10 items-center justify-center rounded-full bg-orange-100">
-                                        <MapPin className="h-5 w-5 text-[#FF6900]" />
+                                        <MapPin className="h-5 w-5 text-[#7A6248]" />
                                     </div>
                                     <div>
                                         <h2
@@ -410,8 +410,8 @@ export default function UserProfilePage({ user }: UserProfilePageProps) {
                                     }
                                     className={
                                         isEditing
-                                            ? 'bg-[#FF6900] text-white hover:bg-[#E55D00]'
-                                            : 'border-[#FF6900] text-[#FF6900] hover:bg-orange-50'
+                                            ? 'bg-[#7A6248] text-white hover:bg-[#7A6248]'
+                                            : 'border-[#7A6248] text-[#7A6248] hover:bg-orange-50'
                                     }
                                     variant={isEditing ? 'default' : 'outline'}
                                 >

@@ -121,7 +121,7 @@ export function Hero() {
                     <div className="relative mx-auto w-full max-w-sm sm:max-w-md lg:max-w-none">
                         <div className="aspect-square overflow-hidden rounded-2xl shadow-2xl">
                             <img
-                                src="images/menu.jpg"
+                                src="images/Semua Produk.png"
                                 alt="Premium freeze dried fruits and vegetables"
                                 className="h-full w-full object-cover"
                             />
