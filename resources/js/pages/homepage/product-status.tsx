@@ -42,12 +42,11 @@ export default function OrderStatusPage({
                     {/* Text Information */}
                     <div className="space-y-3">
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-                            Belum Ada Pesanan
+                            Keranjang Masih Kosong
                         </h2>
                         <p className="text-lg leading-relaxed text-gray-500">
-                            Perut mulai lapar? <br />
-                            Yuk, jelajahi menu lezat kami dan buat pesanan
-                            pertamamu sekarang!
+
+                            Temukan sepatu dan sandal favoritmu sekarang!
                         </p>
                     </div>
 
@@ -57,7 +56,7 @@ export default function OrderStatusPage({
                             onClick={() => navigate('/products')}
                             className="h-14 w-full rounded-2xl bg-[#A88B6A] text-base font-bold text-white shadow-lg shadow-orange-200 transition-all hover:scale-[1.02] hover:bg-[#7A6248] active:scale-95"
                         >
-                            Mulai Pesan Sekarang
+                            Mulai Belanja
                         </Button>
 
                         <button

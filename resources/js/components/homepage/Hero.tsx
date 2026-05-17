@@ -134,7 +134,7 @@ export function Hero() {
                                     100%
                                 </div>
                                 <div className="text-xs text-white sm:text-sm">
-                                    Halal
+                                    Stylish
                                 </div>
                             </div>
                         </div>
