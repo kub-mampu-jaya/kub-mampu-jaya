@@ -120,7 +120,7 @@ export function Header({
                                 >
                                     <ShoppingCart className="h-5 w-5 text-gray-700" />
                                     {cartCount > 0 && (
-                                        <span className="absolute top-0 right-0 flex h-4 w-4 items-center justify-center rounded-full bg-[#FF6900] text-[11px] text-white">
+                                        <span className="absolute top-0 right-0 flex h-4 w-4 items-center justify-center rounded-full bg-cream-800 text-[11px] text-white">
                                             {cartCount}
                                         </span>
                                     )}
@@ -137,7 +137,7 @@ export function Header({
                                         ''
                                     ) : (
                                         <span
-                                            className="absolute top-0 right-0 flex h-4 w-4 items-center justify-center rounded-full bg-[#FF6900] text-[11px] text-white"
+                                            className="absolute top-0 right-0 flex h-4 w-4 items-center justify-center rounded-full bg-cream-800 text-[11px] text-white"
                                             style={{ fontWeight: 600 }}
                                         >
                                             {orders.length}
@@ -158,7 +158,7 @@ export function Header({
                                     >
                                         <Bell className="h-6 w-6 text-gray-700 sm:h-5 sm:w-5" />
                                         {unreadCount > 0 && (
-                                            <span className="absolute -top-0.5 -right-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-[#7A6248] text-[10px] font-semibold text-white sm:top-0 sm:right-0 sm:h-4 sm:w-4 sm:text-[11px]">
+                                            <span className="absolute -top-0.5 -right-0.5 flex h-4 w-4 items-center justify-center rounded-full bg-cream-800 text-[10px] font-semibold text-white sm:top-0 sm:right-0 sm:h-4 sm:w-4 sm:text-[11px]">
                                                 {unreadCount}
                                             </span>
                                         )}

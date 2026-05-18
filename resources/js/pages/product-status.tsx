@@ -181,7 +181,7 @@ export default function OrderStatusPage({
                     <Link
                         href="/products"
                         onClick={onNavigateToHome}
-                        className="mb-4 inline-flex items-center gap-2 text-[#FF6900] hover:text-[#E55F00]"
+                        className="mb-4 inline-flex items-center gap-2 text-cream-700 hover:text-cream-800"
                     >
                         ← Kembali
                     </Link>

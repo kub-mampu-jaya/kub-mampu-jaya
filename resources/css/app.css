@@ -292,7 +292,7 @@
 }
 
 .slick-dots li.slick-active button {
-    background: #ff6900;
+    background: #a88b6a;
     width: 24px;
     border-radius: 5px;
 }
@@ -305,5 +305,5 @@
 
 .slick-dots li.slick-active button:hover,
 .slick-dots li.slick-active button:focus {
-    background: #e55f00;
+    background: #a88b6a;
 }

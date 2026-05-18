@@ -28,7 +28,7 @@ export  function ProductCard(props: ProductCardProps) {
         const [sortBy, setSortBy] = useState('Featured');
         const [favorites, setFavorites] = useState<(number | string)[]>([]);
         const { addToCart, sendToCart } = useCart();
-    
+
 
         const toggleFavorite = (productId: number | string) => {
             setFavorites((prev) =>
@@ -50,7 +50,7 @@ export  function ProductCard(props: ProductCardProps) {
         };
 
         const handleCardClick = (id : number) => {
-            
+
             router.visit(`/products/${id}`);
         }
 
@@ -60,7 +60,7 @@ export  function ProductCard(props: ProductCardProps) {
             currency: 'IDR',
             maximumFractionDigits: 0,
         }).format(value);
-    
+
     return (
         <div className="cursor-pointer overflow-hidden rounded-xl border border-gray-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg" onClick={() => handleCardClick(id)}>
             <div className="relative aspect-square overflow-hidden bg-gray-50 ">
@@ -108,17 +108,17 @@ export  function ProductCard(props: ProductCardProps) {
 
                 <div className="flex items-center justify-between">
                     <span className="text-gray-900">
-                        {formatRupiah(price_discount)}   
+                        {formatRupiah(price_discount)}
                     </span>
 
                     <Button
 
                         onClick={(e) => {handleAddToCart(); e.stopPropagation()}}
-                        className="cursor-pointer bg-primary text-white hover:bg-orange-600"
+                        className="cursor-pointer bg-cream-700 text-white hover:bg-cream-800"
                     >
                         Add
                     </Button>
-                </div>  
+                </div>
             </div>
         </div>
     );

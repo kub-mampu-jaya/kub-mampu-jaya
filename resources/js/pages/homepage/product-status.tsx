@@ -11,6 +11,8 @@ import {
     MapPin,
     ShoppingBag,
     Truck,
+    Package,
+    BadgeCheck
 } from 'lucide-react';
 
 interface OrderStatusPageProps {
@@ -87,14 +89,14 @@ export default function OrderStatusPage({
     const statusSteps = [
         {
             key: 'pending' as OrderStatus,
-            label: 'Pending',
-            icon: Clock10,
+            label: 'Pesanan Masuk',
+            icon: ShoppingBag,
             description: 'Pesananmu sedang disiapkan',
         },
         {
             key: 'cooking' as OrderStatus,
-            label: 'Sedang dimasak',
-            icon: ChefHat,
+            label: 'Diproses / Produksi',
+            icon: Package,
             description: 'Orderan anda sedang di persiapkan di dapur',
         },
         {
@@ -136,7 +138,7 @@ export default function OrderStatusPage({
                     <Link
                         href="/products"
                         onClick={() => navigate('/')}
-                        className="mb-4 inline-flex items-center gap-2 text-[#FF6900] hover:text-[#E55F00]"
+                        className="mb-4 inline-flex items-center gap-2 text-cream-800 hover:text-cream-800"
                     >
                         ← Kembali
                     </Link>
@@ -170,7 +172,7 @@ export default function OrderStatusPage({
                                     </p>
                                 </div>
                                 <div className="text-right">
-                                    <div className="mb-1 flex items-center gap-2 text-[#FF6900]">
+                                    <div className="mb-1 flex items-center gap-2 text-cream-800">
                                         <Clock className="h-5 w-5" />
                                         <span
                                             className="text-[18px]"
@@ -195,7 +197,7 @@ export default function OrderStatusPage({
                                 {/* Line */}
                                 <div className="absolute top-6 right-0 left-0 h-1 bg-gray-200">
                                     <div
-                                        className="h-full bg-[#FF6900] transition-all duration-500"
+                                        className="h-full bg-cream-800 transition-all duration-500"
                                         style={{
                                             width: `${(currentStatusIndex / (statusSteps.length - 1)) * 100}%`,
                                         }}
@@ -219,7 +221,7 @@ export default function OrderStatusPage({
                                                 <div
                                                     className={`flex h-12 w-12 items-center justify-center rounded-full border-4 border-white shadow-md transition-all ${
                                                         isCompleted
-                                                            ? 'bg-[#FF6900] text-white'
+                                                            ? 'bg-cream-800 text-white'
                                                             : 'bg-gray-200 text-gray-400'
                                                     } ${isCurrent ? 'scale-110' : ''}`}
                                                 >
@@ -297,7 +299,7 @@ export default function OrderStatusPage({
                                     (update, index) => (
                                         <div key={index} className="flex gap-4">
                                             <div className="flex flex-col items-center">
-                                                <div className="h-3 w-3 rounded-full bg-[#FF6900]" />
+                                                <div className="h-3 w-3 rounded-full bg-cream-700" />
                                                 {index <
                                                     currentOrder
                                                         .tracking_updates
@@ -329,7 +331,7 @@ export default function OrderStatusPage({
                         {/* Delivery Address */}
                         <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
                             <div className="flex items-start gap-3">
-                                <MapPin className="mt-1 h-5 w-5 text-[#FF6900]" />
+                                <MapPin className="mt-1 h-5 w-5 text-cream-700" />
                                 <div>
                                     <h3
                                         className="mb-1 text-[16px]"
@@ -408,7 +410,7 @@ export default function OrderStatusPage({
                                     Total Harga
                                 </span>
                                 <span
-                                    className="text-[20px] text-[#FF6900]"
+                                    className="text-[20px] text-cream-700"
                                     style={{ fontWeight: 700 }}
                                 >
                                     {formatRupiah(currentOrder.total)}
@@ -423,7 +425,7 @@ export default function OrderStatusPage({
                                 >
                                     <Button
                                         onClick={() => navigate('/')}
-                                        className="w-full bg-[#FF6900] text-white hover:bg-[#E55F00]"
+                                        className="w-full bg-cream-700 text-white hover:bg-cream-800"
                                         style={{ fontWeight: 600 }}
                                     >
                                         Lanjutkan Belanja

@@ -128,7 +128,7 @@ const App = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-[#FFF5F0]">
             {/* Header */}
-            <div className="bg-gradient-to-r from-[#FF6900] to-[#FA2C36] px-4 py-8 text-white shadow-lg sm:px-6 lg:px-8">
+            <div className="bg-gradient-to-r from-cream-800 to-cream-800 px-4 py-8 text-white shadow-lg sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-7xl">
                     <div className="mb-2 flex items-center gap-3">
                         <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/20 backdrop-blur-sm">
@@ -159,7 +159,7 @@ const App = () => {
                                 onChange={(e) =>
                                     handleTypeChange(e.target.value)
                                 }
-                                className="w-full cursor-pointer appearance-none rounded-xl border-2 border-gray-200 bg-white px-4 py-3 pr-10 transition-all hover:border-gray-300 focus:border-[#FF6900] focus:ring-4 focus:ring-[#FF6900]/10 focus:outline-none"
+                                className="w-full cursor-pointer appearance-none rounded-xl border-2 border-gray-200 bg-white px-4 py-3 pr-10 transition-all hover:border-gray-300 focus:border-cream-800 focus:ring-4 focus:ring-cream-800 focus:outline-none"
                             >
                                 <option value="prepare">
                                     📦 Prepare - Order will be shipped
@@ -173,7 +173,7 @@ const App = () => {
                             </select>
                             <ChevronDown className="pointer-events-none absolute top-1/2 right-3 h-5 w-5 -translate-y-1/2 text-gray-400" />
                         </div>
-                        <div className="mt-4 rounded-xl border border-[#FF6900]/20 bg-gradient-to-r from-[#FFF5F0] to-white p-4">
+                        <div className="mt-4 rounded-xl border border-cream-700 bg-gradient-to-r from-[#FFF5F0] to-white p-4">
                             <p className="text-gray-600">
                                 <span className="text-gray-900">Message: </span>
                                 {sendNote}
