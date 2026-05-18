@@ -57,10 +57,10 @@ export function ProductDetails({
             <Tabs defaultValue="description" className="w-full">
                 <TabsList className="grid h-auto w-full grid-cols-2 lg:grid-cols-2">
                     <TabsTrigger value="description" className="py-3">
-                        Deskripsi Makanan
+                        Deskripsi
                     </TabsTrigger>
                     <TabsTrigger value="ingredients" className="py-3">
-                        Bahan Makanan
+                        Bahan
                     </TabsTrigger>
                     {/* <TabsTrigger value="nutrition" className="py-3">
                         Isi Makanan
@@ -136,9 +136,9 @@ export function ProductDetails({
                         {ingredientsDummy.map((ingredient, index) => (
                             <div
                                 key={index}
-                                className="flex items-center gap-2 rounded-lg border border-green-200 bg-green-50 p-3"
+                                className="flex items-center gap-2 rounded-lg border border-cream-200 bg-cream-50 p-3"
                             >
-                                <div className="h-2 w-2 rounded-full bg-green-600"></div>
+                                <div className="h-2 w-2 rounded-full bg-cream-600"></div>
                                 <span className="text-gray-700">
                                     {ingredient}
                                 </span>

@@ -191,7 +191,7 @@ export default function CartPage({ user, cart }: productCartProps) {
                                                         </h3>
 
                                                         <div className="flex items-center gap-2">
-                                                            <span className="font-semibold text-[#FF6900]">
+                                                            <span className="font-semibold text-[#7A6248]">
                                                                 {formatPrice(
                                                                     item.product
                                                                         .price_discount,
@@ -325,7 +325,7 @@ export default function CartPage({ user, cart }: productCartProps) {
 
                                         <div className="flex justify-between text-lg font-bold">
                                             <span>Total</span>
-                                            <span className="text-[#FF6900]">
+                                            <span className="text-[#7A6248]">
                                                 {formatPrice(total)}
                                             </span>
                                         </div>
@@ -334,7 +334,7 @@ export default function CartPage({ user, cart }: productCartProps) {
                                             disabled={
                                                 selectedItems.length === 0
                                             }
-                                            className="mt-4 w-full bg-[#FF6900] text-white hover:bg-[#E55D00]"
+                                            className="mt-4 w-full bg-[#A88B6A] text-white hover:bg-[#7A6248]"
                                             onClick={() =>
                                                 setCurrentPage('checkout')
                                             }
@@ -347,7 +347,7 @@ export default function CartPage({ user, cart }: productCartProps) {
                                     </Card>
 
                                     {/* SECURITY INFO */}
-                                    <Card className="rounded-xl border border-orange-200 bg-orange-50 p-4 text-sm">
+                                    <Card className="rounded-xl border border-cream-300 bg-orange-50 p-4 text-sm">
                                         <ul className="space-y-2 text-gray-700">
                                             <li>✓ Pembayaran Aman</li>
                                             <li>✓ Pengembalian Mudah</li>
@@ -358,7 +358,7 @@ export default function CartPage({ user, cart }: productCartProps) {
                                     <Link href="/products">
                                         <Button
                                             variant="outline"
-                                            className="w-full border-dashed border-[#FF6900] text-[#FF6900]"
+                                            className="w-full border-dashed border-[#A88B6A] text-[#7A6248]"
                                         >
                                             Tambah Produk
                                             <Plus className="ml-2 h-4 w-4" />

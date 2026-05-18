@@ -43,11 +43,11 @@ export default function ProductDetailsPage({
                     <div className="border-b bg-gray-50">
                         <div className="container mx-auto px-4 py-3">
                             <div className="text-md flex items-center gap-2 text-gray-600">
-                                <a href="#" className="hover:text-green-600">
+                                <a href="#" className="hover:text-cream-600">
                                     Beranda
                                 </a>
                                 <span>/</span>
-                                <a href="#" className="hover:text-green-600">
+                                <a href="#" className="hover:text-cream-600">
                                     Produk
                                 </a>
                                 <span>/</span>

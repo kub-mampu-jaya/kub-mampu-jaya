@@ -11,7 +11,7 @@ export function ProductImageGallery({ images }: ProductImageGalleryProps) {
     return (
         <div className="space-y-4">
             {/* Main Image */}
-            <div className="aspect-square overflow-hidden rounded-lg border-2 border-green-200 bg-gradient-to-br from-green-50 to-amber-50">
+            <div className="aspect-square overflow-hidden rounded-lg border-2 border-cream-400 bg-gradient-to-br from-green-50 to-amber-50">
                 <ImageWithFallback
                     src={images[selectedImage]}
                     alt="Product image"

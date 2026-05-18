@@ -244,19 +244,19 @@ export function CheckoutPage({
                                     onClick={() => setSelectedAddress('alt')}
                                     className={`mt-3 cursor-pointer rounded-lg border p-4 transition ${
                                         selectedAddress === 'alt'
-                                            ? 'border-primary bg-gradient-to-br from-orange-50 to-yellow-50'
+                                            ? 'border-cream-800 bg-gradient-to-br from-orange-50 to-yellow-50'
                                             : 'border-gray-200'
                                     }`}
                                 >
                                     <div className="flex items-start gap-3">
-                                        <MapPin className="mt-1 h-5 w-5 text-primary" />
+                                        <MapPin className="mt-1 h-5 w-5 text-cream-800" />
                                         <div className="flex-1">
                                             <div className="flex items-center gap-2">
                                                 <span className="font-semibold">
                                                     {user.name}
                                                 </span>
                                                 {selectedAddress === 'alt' && (
-                                                    <Badge className="bg-primary text-[11px] text-white">
+                                                    <Badge className="bg-cream-800 text-[11px] text-white">
                                                         Dipilih
                                                     </Badge>
                                                 )}
@@ -276,7 +276,7 @@ export function CheckoutPage({
                                 </div>
                             ) : (
                                 <Link href="/profile#address-section">
-                                    <div className="mt-3 cursor-pointer rounded-lg border-2 border-dashed border-gray-300 p-4 text-sm text-gray-500 hover:border-primary">
+                                    <div className="mt-3 cursor-pointer rounded-lg border-2 border-dashed border-gray-300 p-4 text-sm text-gray-500 hover:border-cream-800">
                                         Tambahkan alamat kedua
                                     </div>
                                 </Link>
@@ -288,7 +288,7 @@ export function CheckoutPage({
                                                                     <div className="mt-1 flex h-8 w-8 items-center justify-center rounded-full bg-gray-300">
                                                                         <MapPin className="h-4 w-4 text-white" />
                                                                     </div>
-                            
+
                                                                     <div className="flex-1">
                                                                         <div className="mb-1 flex items-center gap-2">
                                                                             <span
@@ -301,12 +301,12 @@ export function CheckoutPage({
                                                                                 Opsional
                                                                             </Badge>
                                                                         </div>
-                            
+
                                                                         <p className="mb-1 text-[14px] text-gray-500">
                                                                             Anda dapat menambahkan alamat
                                                                             cadangan
                                                                         </p>
-                            
+
                                                                         <p className="text-[14px] text-gray-400">
                                                                             Contoh: alamat kantor, kos, atau
                                                                             rumah keluarga
@@ -440,7 +440,7 @@ export function CheckoutPage({
                                 onValueChange={setPaymentMethod}
                                 className="space-y-3"
                             >
-                                <div className="flex items-center space-x-3 rounded-lg border-2 border-gray-200 p-4 hover:border-primary">
+                                <div className="flex items-center space-x-3 rounded-lg border-2 border-gray-200 p-4 hover:border-cream-800">
                                     <RadioGroupItem value="cod" id="cod" />
                                     <Label
                                         htmlFor="cod"
@@ -460,7 +460,7 @@ export function CheckoutPage({
                                     </Label>
                                 </div>
 
-                                <div className="flex items-center space-x-3 rounded-lg border-2 border-gray-200 p-4 hover:border-primary">
+                                <div className="flex items-center space-x-3 rounded-lg border-2 border-gray-200 p-4 hover:border-cream-800">
                                     <RadioGroupItem
                                         value="transfer"
                                         id="transfer"

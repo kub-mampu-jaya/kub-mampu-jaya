@@ -465,7 +465,7 @@ export function OneCheckoutPage({
                             <Button
                                 onClick={handlePlaceOrder}
                                 disabled={isPlacingOrder}
-                                className="mt-5 w-full bg-primary py-6 text-[16px] text-white hover:bg-orange-600"
+                                className="mt-5 w-full bg-cream-700 py-6 text-[16px] text-white hover:bg-cream-800"
                                 style={{ fontWeight: 600 }}
                             >
                                 {isPlacingOrder

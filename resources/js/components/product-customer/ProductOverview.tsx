@@ -80,7 +80,7 @@ export function ProductOverview({
             <div className="flex items-center gap-4">
                 <div className="flex items-baseline gap-2">
                     <span
-                        className="text-[36px] text-primary"
+                        className="text-[36px] text-cream-800"
                         style={{ fontWeight: 700 }}
                     >
                         {formatPrice(product.price_discount)}
@@ -90,7 +90,7 @@ export function ProductOverview({
                     </span>
                 </div>
                 {product.badge && (
-                    <Badge className="bg-red-500 px-3 py-1 text-white hover:bg-red-600">
+                    <Badge className="bg-cream-500 px-3 py-1 text-white hover:bg-cream-600">
                         {product.badge}
                     </Badge>
                 )}
@@ -159,14 +159,14 @@ export function ProductOverview({
             {/* CTA Buttons */}
             <div className="flex flex-col gap-4 sm:flex-row">
                 <Button
-                    className="flex-1 bg-[#1B263B] py-6 text-[16px] text-white hover:bg-[#273746]"
+                    className="flex-1 bg-cream-600 py-6 text-[16px] text-white hover:bg-cream-700"
                     style={{ fontWeight: 600 }}
                     onClick={handleAddToCart}
                 >
                     Tambah ke Keranjang
                 </Button>
                 <Button
-                    className="flex-1 bg-primary py-6 text-[16px] text-white hover:bg-orange-400"
+                    className="flex-1 bg-cream-800 py-6 text-[16px] text-white hover:bg-cream-900"
                     style={{ fontWeight: 600 }}
                     onClick={onNavigateToCheckout}
                 >

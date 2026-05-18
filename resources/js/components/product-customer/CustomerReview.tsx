@@ -153,13 +153,13 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
     return (
         <div className="mt-12">
             {/* Summary Section */}
-            <div className="rounded-lg border border-amber-200 bg-gradient-to-br from-amber-50 to-orange-50 p-6">
+            <div className="rounded-lg border border-cream-800 bg-gradient-to-br from-cream-100 to-cream-100 p-6">
                 <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
                     {/* Left Section - Rating Summary */}
                     <div className="flex-1">
                         <div className="mb-4 flex items-center gap-4">
                             <div
-                                className="text-[48px] text-primary"
+                                className="text-[48px] text-cream-800"
                                 style={{ fontWeight: 700 }}
                             >
                                 {averageRating}
@@ -194,10 +194,10 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
                 </div>
 
                 {/* Quick Review Stats */}
-                <div className="mt-6 grid grid-cols-2 gap-4 border-t border-amber-300 pt-6 md:grid-cols-4">
+                <div className="mt-6 grid grid-cols-2 gap-4 border-t border-cream-800 pt-6 md:grid-cols-4">
                     <div className="text-center">
                         <div
-                            className="text-[24px] text-primary"
+                            className="text-[24px] text-cream-800"
                             style={{ fontWeight: 700 }}
                         >
                             92%
@@ -208,7 +208,7 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
                     </div>
                     <div className="text-center">
                         <div
-                            className="text-[24px] text-primary"
+                            className="text-[24px] text-cream-800"
                             style={{ fontWeight: 700 }}
                         >
                             4.6
@@ -219,7 +219,7 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
                     </div>
                     <div className="text-center">
                         <div
-                            className="text-[24px] text-primary"
+                            className="text-[24px] text-cream-800"
                             style={{ fontWeight: 700 }}
                         >
                             4.8
@@ -228,7 +228,7 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
                     </div>
                     <div className="text-center">
                         <div
-                            className="text-[24px] text-primary"
+                            className="text-[24px] text-cream-800"
                             style={{ fontWeight: 700 }}
                         >
                             4.4
@@ -332,7 +332,7 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
             </div>
 
             {/* Write a Review Section */}
-            <div className="mt-12 rounded-lg border border-orange-200 bg-gradient-to-br from-orange-50 to-amber-50 p-8">
+            <div className="mt-12 rounded-lg border border-cream-800 bg-gradient-to-br from-cream-100 to-cream-100 p-8">
                 <div className="mx-auto max-w-3xl">
                     <div className="mb-8 text-center">
                         <h3
@@ -372,7 +372,7 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
                                             className={`h-10 w-10 transition-colors ${
                                                 star <=
                                                 (hoveredRating || userRating)
-                                                    ? 'fill-[#FF6900] text-[#FF6900]'
+                                                    ? 'fill-yellow-400 text-yellow-400'
                                                     : 'text-gray-300 hover:text-gray-400'
                                             }`}
                                         />
@@ -381,7 +381,7 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
                                 {userRating > 0 && (
                                     <div className="ml-3 flex items-center gap-2">
                                         <span
-                                            className="text-[18px] text-[#FF6900]"
+                                            className="text-[18px] text-cream-800]"
                                             style={{ fontWeight: 600 }}
                                         >
                                             {userRating === 5
@@ -418,7 +418,7 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
                                 maxLength={500}
                                 placeholder="Ceritakan apa yang Anda rasakan tentang kesesuaian ukuran, kenyamanan, model, dan pengalaman keseluruhan menggunakan produk ini..."
                                 rows={6}
-                                className="w-full resize-none rounded-lg border-2 border-gray-200 px-4 py-3 transition-all focus:border-[#FF6900] focus:ring-2 focus:ring-[#FF6900] focus:outline-none"
+                                className="w-full resize-none rounded-lg border-2 border-gray-200 px-4 py-3 transition-all focus:border-cream-800 focus:ring-2 focus:ring-cream-800 focus:outline-none"
                             />
                             <div className="mt-2 flex items-center justify-between">
                                 <p className="text-[13px] text-gray-500">
@@ -453,7 +453,7 @@ export function CustomerReviews({ reviews, product }: CustomerReviewsProps) {
                                     reviewText.trim().length < 10 ||
                                     isSubmittingComment
                                 }
-                                className="bg-[#FF6900] px-8 text-white hover:bg-[#E55F00] disabled:cursor-not-allowed disabled:bg-gray-300"
+                                className="bg-cream-700 px-8 text-white hover:bg-bg-cream-800 disabled:cursor-not-allowed disabled:bg-gray-300"
                                 style={{ fontWeight: 600 }}
                             >
                                 {isSubmittingComment ? 'Mengirim...' : 'Kirim'}
