@@ -1,5 +1,5 @@
 import { Link } from '@inertiajs/react';
-import { Globe, Leaf, Shield, Zap } from 'lucide-react';
+import { Globe, Leaf, Shield, Zap, Gem, Footprints, Feather , Palette } from 'lucide-react';
 import { Button } from '../ui/button';
 import { useLanguage } from './LanguageContext';
 // import greenBackground from 'figma:asset/af8f9c76d5e9d20cdce79be680203c8c9e0c8526.png';
@@ -38,22 +38,22 @@ export function Hero() {
                         <div className="grid grid-cols-2 gap-4 sm:gap-6">
                             {[
                                 {
-                                    icon: Leaf,
+                                    icon: Gem,
                                     title: t('ecoFriendly'),
                                     desc: t('sustainablePackaging'),
                                 },
                                 {
-                                    icon: Zap,
+                                    icon: Footprints,
                                     title: t('longLasting'),
                                     desc: t('shelfLife'),
                                 },
                                 {
-                                    icon: Shield,
+                                    icon: Feather,
                                     title: t('nutrientRich'),
                                     desc: t('nutritionRetained'),
                                 },
                                 {
-                                    icon: Globe,
+                                    icon: Palette,
                                     title: t('accessible'),
                                     desc: t('easyPreparation'),
                                 },
@@ -82,7 +82,7 @@ export function Hero() {
                             <Link href="/products">
                                 <Button
                                     size="lg"
-                                    className="w-full cursor-pointer bg-white text-primary shadow-lg hover:bg-white/90 sm:w-auto"
+                                    className="w-full cursor-pointer bg-white text-cream-800 shadow-lg hover:bg-white/90 sm:w-auto"
                                 >
                                     {t('checkOurProducts')}
                                 </Button>

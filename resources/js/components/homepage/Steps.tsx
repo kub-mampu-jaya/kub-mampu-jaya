@@ -1,40 +1,35 @@
 import {
-    Clock,
-    Package,
-    ShoppingCart,
-    Star,
-    UserPlus,
-    Utensils,
+    ContactRound, ShoppingBag, PenTool, CreditCard, PackageCheck, Star
 } from 'lucide-react';
 
 export function Steps() {
     const steps = [
         {
-            icon: UserPlus,
+            icon: ContactRound,
             title: 'Buat Akun',
             description:
                 'Daftar dan hubungkan Anda dengan informasi produk terbaru hingga tracking pesanan Anda.',
         },
         {
-            icon: ShoppingCart,
+            icon: ShoppingBag,
             title: 'Pilih Produk',
             description:
                 'mulai dari koleksi sepatu premium, slipper hotel, hingga laundry bag. Pilih produk yang paling sesuai dengan kebutuhan atau gaya Anda.',
         },
         {
-            icon: Package,
+            icon: PenTool,
             title: 'Tentukan Detail & Customisasi',
             description:
                 'Beri tahu kami spesifikasi yang Anda inginkan. Anda bisa berkonsultasi mengenai ukuran, penyesuaian desain, hingga detail sablon khusus sesuai yang diinginkan.',
         },
         {
-            icon: Clock,
+            icon: CreditCard,
             title: 'Konfirmasi & Pembayaran',
             description:
                 'Setelah detail pesanan dan estimasi waktu selesai disepakati, tim kami akan memberikan rincian total biaya. Lakukan pembayaran melalui metode yang tersedia secara aman, dan pesanan Anda akan langsung masuk ke antrean kami.',
         },
         {
-            icon: Utensils,
+            icon: PackageCheck,
             title: 'Produksi & Pengiriman',
             description:
                 'Produk akan dikerjakan oleh pengrajin kami. Anda dapat melacak status pesanan secara realtime dari sistem kami hingga pesanan mendarat dengan aman di alamat Anda.',

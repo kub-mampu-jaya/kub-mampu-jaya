@@ -1,24 +1,24 @@
 // import greyBackground from 'figma:asset/a0db27bdaccee7281040b12773da358fcf6e87f1.png';
-import { Clock, Heart, Truck } from 'lucide-react';
+import { Clock, Heart, Truck, Sparkles,  ShieldCheck, HeartHandshake} from 'lucide-react';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
 import { Card, CardContent } from '../ui/card';
 
 export function Features() {
     const features = [
         {
-            icon: Clock,
+            icon: Sparkles,
             title: 'Solusi Fleksibel Sesuai Kebutuhan',
             description:
                 'Kami menyediakan layanan yang fleksibel, mulai dari pemesanan sepatu custom untuk gaya personal, hingga pengadaan slipper berkualitas untuk menunjang bisnis hospitality Anda. Semuanya dirancang untuk menjadi koleksi alas kaki yang trendi dengan desain presisi.',
         },
         {
-            icon: Truck,
+            icon: ShieldCheck,
             title: 'Kualitas Premium',
             description:
                 'Kami menggunakan material premium pilihan yang terbukti awet dan tangguh. Sebuah ketahanan yang bisa diandalkan untuk menemani berbagai kesibukan harian.',
         },
         {
-            icon: Heart,
+            icon: HeartHandshake,
             title: 'Pelayanan Sepenuh Hati',
             description:
                 'Kepuasan Anda adalah prioritas utama kami. Tim kami selalu siap berdiskusi dan membantu dengan ramah, mulai dari konsultasi pesanan hingga produk tiba dengan aman di tangan Anda.',
